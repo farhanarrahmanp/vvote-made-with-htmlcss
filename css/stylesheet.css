@@ -158,14 +158,6 @@ span.menu-icon {
   position: relative;
 }
 
-.png1 {
-  filter: opacity(0.5) drop-shadow(0 0 0 teal);
-}
-
-.png4 {
-  filter: opacity(0.5) drop-shadow(0 0 0 teal);
-}
-
 .lesson-icon p {
   position: absolute;
   /*top: 44%;*/
@@ -220,4 +212,17 @@ footer p {
 footer {
   padding-top: 30px;
   padding-bottom: 20px;
+}
+
+.lesson-icon img {
+  height: 180px;
+  width: 204px;
+}
+
+.lesson-icon .png-1 {
+  filter: opacity(0.5) drop-shadow(0 0 0 teal);
+}
+
+.lesson-icon .png-4 {
+  filter: opacity(0.5) drop-shadow(0 0 0 teal);
 }
